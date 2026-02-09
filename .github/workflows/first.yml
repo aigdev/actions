@@ -8,3 +8,8 @@ jobs:
         steps: 
         - name: Welcome
           run: echo "Hello!"
+
+        - name: List files
+          run: ls -la
+
+    
